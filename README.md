@@ -11,7 +11,6 @@
   <a href="https://arxiv.org/abs/2609.24621">📄 Paper</a> ·
   <a href="https://spectrobot-project.github.io">🌐 Project page</a> ·
   <a href="https://huggingface.co/jogarulfop">🤗 Datasets &amp; models</a> ·
-  <a href="https://github.com/spectrobot-project">💻 Code</a>
 </p>
 
 ## Context
@@ -19,7 +18,7 @@
 Tactile sensing is being used more and more in learning-based robot manipulation, but most approaches rely on spatially distributed sensors (skins, arrays, vision-based tactile pads). **SpectRobot** takes the opposite approach: a **single-point, high-bandwidth vibration sensor** is mounted on the gripper, and its signal is turned into a compact **time-frequency spectrogram**. The spectrogram is just another image, so standard vision encoders and vision learning pipelines (here ACT) can use it without changes. It also carries temporal and frequency information that cameras cannot see.
 
 <p align="center"><img src="media/readme/architecture-pipeline.webp" alt="ACT learning pipeline fusing top camera, wrist camera and tactile spectrogram through a ResNet and transformer encoder/decoder" width="85%"><br>
-<sub>Learning pipeline: top camera, wrist camera and tactile spectrogram are fused by ACT (adapted from T. Z. Zhao et al., 2023).</sub></p>
+<sub>Learning pipeline (adapted from T. Z. Zhao et al., 2023).</sub></p>
 
 
 ## What this robot type does
