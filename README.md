@@ -53,12 +53,12 @@ uv pip install e .[feetech,viz]
 
 Teensy backend
 ```bash
-uv pip install pyserial, scipy
+uv pip install pyserial scipy
 ```
 
 OpenDAQ backend 
 ```bash
-uv pip install opendaq, scipy
+uv pip install opendaq scipy
 ```
 
 #### USB ports
